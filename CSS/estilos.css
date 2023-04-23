@@ -1,0 +1,82 @@
+body {
+background-color: rgb(2, 2, 2);
+}
+
+.redes{ 
+margin: 10px;
+font-family: Impact;
+font-size: 20px;
+}
+
+.logo  {
+height: 112px;
+border-top-left-radius: 65% 65%;
+  border-top-right-radius: 65% 65%;
+  border-bottom-right-radius: 65% 65%;
+  border-bottom-left-radius: 65% 65%;
+  float: left ; 
+}
+
+h1 {
+  color: yellow;
+letter-spacing: 7px;
+text-align: center;
+font-family: impact;
+text-shadow: 0 0 3px rgb(250, 3, 229);
+}
+
+.remeras {
+height: 260px;
+margin: 20px;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-top-right-radius: 40px;
+border-top: 40px;
+}
+
+.jean {
+height: 260px;
+margin: 20px;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+border-top-right-radius: 40px;
+border-top: 40px;
+}
+
+.buzos {
+  height: 260px;
+  margin: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 10px;
+}
+
+.camisas{
+  height: 260px;
+  margin: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top: 40px;
+}
+
+.camperas {
+  height: 260px;
+  margin: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top: 40px;
+}
+
+.VestidosPolleras {
+  height: 260px;
+  margin: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top: 40px;
+
+}
+
