@@ -2,15 +2,38 @@ body {
 background-color: rgb(12, 11, 11);
 }
 
-.redes{ 
-margin: 10px;
-font-family: Impact;
-font-size: 20px;
-color: rgb(161, 81, 185);
+nav {
+background-color: blueviolet;
+margin-bottom: 2em;
+}
+
+nav ul {
+  font-family: arial;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+display: inline-block;
+width: 16.3%;
+
+}
+
+nav ul li a {
+color: rgb(231, 240, 240);
+text-decoration: none;
+text-align: center;
+display: block;
+padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+  background-color: rgb(12, 12, 12);
 }
 
 .logo  {
-height: 112px;
+height: 100px;
 border-top-left-radius: 65% 65%;
   border-top-right-radius: 65% 65%;
   border-bottom-right-radius: 65% 65%;
@@ -23,32 +46,33 @@ h1 {
 letter-spacing: 7px;
 text-align: center;
 font-family: impact;
-text-shadow: 0px 0px 1px rgb(245, 243, 245);
+text-shadow: 0px 0px 2px rgb(245, 243, 245);
 }
 
 section {
   display: flex;
-  width: 600px;
+ gap: 5px;
+  width: 500px;
   height: 430px;
 }
 
 section img {
-width: 50px;
-flex-grow: 5;
+width: 110px;
+flex-grow: 7;
 object-fit:cover ;
 opacity: .8;
 transition: .5s ease;
 }
 
 section img:hover {
-cursor: crosshair;
+cursor: grab;
 width: 300px;
 opacity: 1;
 filter: contrast(120%);
 }
 
 .remeras {
-height: 260px;
+height: 360px;
 margin:20px;
 margin-bottom: 1px;
 border-bottom-left-radius: 40px;
@@ -58,7 +82,7 @@ border-top: 40px;
 }
 
 .jean {
-height: 260px;
+height: 360px;
 margin: 20px;
 margin-bottom: 1px;
 border-bottom-left-radius: 40px;
@@ -68,7 +92,7 @@ border-top: 40px;
 }
 
 .buzos {
-  height: 260px;
+  height: 360px;
   margin: 20px;
   margin-bottom: 1px;
   border-bottom-left-radius: 10px;
@@ -78,7 +102,7 @@ border-top: 40px;
 }
 
 .camisas{
-  height: 260px;
+  height: 360px;
   margin: 20px;
   margin-bottom: 1px;
   border-bottom-left-radius: 40px;
@@ -88,7 +112,7 @@ border-top: 40px;
 }
 
 .camperas {
-  height: 260px;
+  height: 360px;
   margin: 20px;
   margin-bottom: 1px;
   border-bottom-left-radius: 40px;
@@ -98,78 +122,37 @@ border-top: 40px;
 }
 
 .VestidosPolleras {
-  height: 260px;
+  height: 360px;
   margin: 20px;
   margin-bottom: 1px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   border-top-right-radius: 40px;
   border-top: 40px;
-
-
 }
 
-.reme{
-  font-family: impact;
-  color: rgb(255, 6, 243);
-  letter-spacing: 1px;
+.gafitas {
+  height: 360px;
+  margin: 20px;
+  margin-bottom: 1px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top: 40px;
+  }
 
+.accesorios {
+  height: 360px;
+  margin: 20px;
+  margin-bottom: 1px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top: 40px;
+  }
 
-
-  
-}
-
-.pant {
-  font-family: impact;
-  color: fuchsia;
-  letter-spacing: 1px;
-}
-
-.buzito {
-  font-family: impact;
-  color: fuchsia;
-  letter-spacing: 1px;
-
-}
-
-.camisama {
-  font-family: impact;
-  color: fuchsia;
-  letter-spacing: 1px;
-  
-  
-
-}
-
-.camperitas {
-  font-family: impact;
-  color: fuchsia;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-.VestPo {
-  font-family: impact;
-  color: fuchsia;
-  letter-spacing: 1px;
-  padding-inline-start: 1px;
-
-
-}
-
-
-ul {
-  display: inline-flex;
-  padding-top:0px;
-  margin-top: 0px;
-font-size: 25px;
-gap: 39px;
-padding-left: 0px;
+  .final {
+font-family: 'Courier New';
+color: white;
 text-align: center;
-letter-spacing: 15px;
-}
-
-.botoncito {
-letter-spacing: 0px;
-
-}
+  }
