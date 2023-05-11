@@ -1,5 +1,5 @@
 body {
-background-color: rgb(12, 11, 11);
+background-color: rgb(10, 10, 10);
 }
 
 nav {
@@ -7,11 +7,16 @@ background-color: blueviolet;
 margin-bottom: 2em;
 }
 
+hr {
+  color: white;
+}
+
 nav ul {
   font-family: arial;
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-left: 290px;
 }
 
 nav ul li {
@@ -26,13 +31,14 @@ text-decoration: none;
 text-align: center;
 display: block;
 padding: 0.2em 0.4em;
+
 }
 
 nav ul li a:hover {
   background-color: rgb(12, 12, 12);
 }
 
-.logo  {
+    .logo  {
 height: 100px;
 border-top-left-radius: 65% 65%;
   border-top-right-radius: 65% 65%;
@@ -52,12 +58,12 @@ text-shadow: 0px 0px 2px rgb(245, 243, 245);
 section {
   display: flex;
  gap: 5px;
-  width: 500px;
+  width: 400px;
   height: 430px;
 }
 
 section img {
-width: 110px;
+width: 115px;
 flex-grow: 7;
 object-fit:cover ;
 opacity: .8;
@@ -66,14 +72,15 @@ transition: .5s ease;
 
 section img:hover {
 cursor: grab;
-width: 300px;
-opacity: 1;
+width: 260px;
+opacity: 9;
 filter: contrast(120%);
 }
 
+
 .remeras {
 height: 360px;
-margin:20px;
+margin: 5px;
 margin-bottom: 1px;
 border-bottom-left-radius: 40px;
 border-bottom-right-radius: 40px;
@@ -83,7 +90,7 @@ border-top: 40px;
 
 .jean {
 height: 360px;
-margin: 20px;
+margin:5px;
 margin-bottom: 1px;
 border-bottom-left-radius: 40px;
 border-bottom-right-radius: 40px;
@@ -93,7 +100,7 @@ border-top: 40px;
 
 .buzos {
   height: 360px;
-  margin: 20px;
+  margin: 5px;
   margin-bottom: 1px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -103,7 +110,17 @@ border-top: 40px;
 
 .camisas{
   height: 360px;
-  margin: 20px;
+  margin: 5px;
+  margin-bottom: 1px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top: 40px;
+}
+
+.hiley{
+  height: 360px;
+  margin: 5px;
   margin-bottom: 1px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -113,7 +130,7 @@ border-top: 40px;
 
 .camperas {
   height: 360px;
-  margin: 20px;
+  margin: 5px;
   margin-bottom: 1px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -123,7 +140,7 @@ border-top: 40px;
 
 .VestidosPolleras {
   height: 360px;
-  margin: 20px;
+  margin: 5px;
   margin-bottom: 1px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -133,7 +150,7 @@ border-top: 40px;
 
 .gafitas {
   height: 360px;
-  margin: 20px;
+  margin: 5px;
   margin-bottom: 1px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -143,7 +160,7 @@ border-top: 40px;
 
 .accesorios {
   height: 360px;
-  margin: 20px;
+  margin: 5px;
   margin-bottom: 1px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -151,8 +168,31 @@ border-top: 40px;
   border-top: 40px;
   }
 
+  .Varon {
+    height: 360px;
+    margin: 5px;
+    margin-bottom: 1px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top: 40px;
+    }
+
+
+
   .final {
 font-family: 'Courier New';
 color: white;
 text-align: center;
-  }
+  } 
+
+button {
+  width: 135px;
+  height: 360px;
+  margin: 5px;
+  margin-bottom: 1px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top: 40px;
+}

@@ -8,7 +8,23 @@ h1 {
     text-align: center;
 }
 
+section {
+    display: flex;
+    gap: 25px;
+}
+
 p {
 color: white; 
 font-family: Verdana;
+padding: 2px;
+}
+
+.PREHISTORIA {
+    height: 680px;
+    margin: 20px;
+    margin-bottom: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 10px;
 }
